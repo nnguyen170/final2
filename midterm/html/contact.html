@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a short hike</title>
+    <link rel="stylesheet" href="../midterm css/midtermstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <div class="cycle-slideshow">
+                    <img src="../a short hike/a-final.jpg">
+                    <img src="../a short hike/wp5791157.jpg">
+                    <img src="../a short hike/wp5791162.jpg">
+                    <img src="../a short hike/ss_c9c8a8e6062511c5ae9259c68c66754cd09ae971.1920x1080.jpg">
+                </div>
+
+            </h1>
+            <h2>a little exploration game about hiking up a mountain by <a href="https://adamgryu.itch.io/">adamgryu</a></h2>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">home</a>
+                </li>
+                <li>
+                    <a href="../html/about.html">about</a>
+                </li>
+                <li>
+                    <a href="../html/contact.html">contact</a>
+                </li>
+                <li>
+                    <a href="../html/demo.html">demo</a>
+                </li>
+                <li>
+                    <a href="../html/newsletters.html">newsletters</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+    <div class="hero">
+        <object data="https://www.youtube.com/embed/l4bWwobx_LQ"></object>
+    </div>
+        </main>
+        <p>enjoy the game? give it a review! </p>
+        <p>experiencing some problem? Contact me through: thisisnotarealemail@notemail</p>
+       <aside>
+        <div>
+            <a class="example-image-link" href="../a short hike/BiggerImages/wp5791145.jpg" data-lightbox="example-set" data-title="Explore the beautiful land of Hawk Peak provincial park!"><img class="example-image" src="../a short hike/smaller image/thumbnail1.jpg" alt=""/></a>
+            <a class="example-image-link" href="../a short hike/BiggerImages/wp5791291.jpg" data-lightbox="example-set" data-title="Fly high up to the sky above!"><img class="example-image" src="../a short hike/smaller image/thumbnail2.jpg" alt="" /></a>
+            <a class="example-image-link" href="../a short hike/BiggerImages/wp5791296.jpg" data-lightbox="example-set" data-title="Talking to your favorite npc!"><img class="example-image" src="../a short hike/smaller image/thumbnail3.jpg" alt="" /></a>
+          </div>
+       </aside>
+       <div class="available">
+        "available now on"
+        <a href="https://www.nintendo.com/store/products/a-short-hike-switch/">nintendo switch</a>
+        <a href="https://www.playstation.com/en-us/games/a-short-hike/">play station 4</a>
+        <a href="https://www.xbox.com/en-us/games/store/a-short-hike/9nk78df207sd">xbox one</a>
+        <a href="https://store.steampowered.com/app/1055540/A_Short_Hike/">steam</a>
+       </div>
+       <button onclick="topFunction()" id="myBtn" title="Go to top"> <img src="../a short hike/claire.png" height="60" width="65"></button>
+       <footer>
+        created by <a href="https://twitter.com/adamgryu">adam robinson-yu</a>
+        original soundtrack by <a href="https://twitter.com/Markymark665">mark sparling</a>
+       </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
